@@ -20,13 +20,26 @@ ol, ul {
 /* site */
 
 body {
-    background-color: #36365e;
-    padding: 10% 30% 10% 10%;
+    background: url('../img/eye-bl.png') top repeat #36365e;
+    background-size: 350px;
+    padding: 5% 9% 5% 5%;
     font-family: 'Open Sans', sans-serif;
 }
 
-.custom-cursor {
-    cursor: url(http://bpic.588ku.com/element_pic/00/93/02/4856f24e1bc2cd2.jpg), auto;
+@media (min-width: 30em) {
+    
+    body {
+        padding: 10% 30% 10% 10%;
+    }
+
+}
+
+@media (min-width: 90em) {
+    
+    body {
+        padding: 15% 45% 15% 15%;
+    }
+
 }
 
 p, h1, h2, h3, h4, ul, li, a:link, a:hover, a:visited {
