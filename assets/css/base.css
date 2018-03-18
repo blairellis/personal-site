@@ -20,8 +20,7 @@ ol, ul {
 /* site */
 
 body {
-    background: url('../img/eye-bl.png') top repeat #36365e;
-    background-size: 350px;
+    background-color:#36365e;
     padding: 5% 9% 5% 5%;
     font-family: 'Open Sans', sans-serif;
 }
