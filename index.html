@@ -7,20 +7,21 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="icon" type="image/png" href="favicon.png">
     </head>
-    <body> 
+    <body id="bodyColor"> 
         
-        <h1>Blair Ellis</h1>
+        <h1><img src="assets/img/wave.png" alt="Hi. I'm" width="60" style="padding-right: 20px; margin-bottom: -10px;"/>Blair Ellis</h1>
         
-        <h2>I'm a product design manager at <a href="https://etsy.com" target="_blank">Etsy</a>.</h2>
+        <h2>I'm the director of product design at <a href="https://mavenclinic.com" target="_blank">Maven Clinic</a>.</h2>
         
-        <p>I help teams think big by facilitating cross-functional workshops to bring humans from different disciplines together to dream up the products we'll ship to the humans we design for. I believe product development is a creative craft that requires collaboration, open, critical hearts and minds, and hard skills. I love working with people that approach their work with big intentions.</p>
+        <p>I help teams think big by facilitating cross-functional workshops to bring humans from different disciplines together to dream up the products we'll ship to the humans we design for. I believe product development is a creative craft that requires collaboration, open critical hearts and minds, and hard skills. I love working with people that approach their work with big intentions.</p>
+        
 
         <h3>Things I've learned along the way:</h3>
         
         <ul>
-            <li>How proper research requires looking at a balance of trends in the broader world, the problems your customers have, and at the nuances in our execution.</li>
+            <li>Proper research requires looking at a balance of trends in the broader world, the problems your customers have, and at the nuances in our execution.</li>
             <li>Strategic planning within constraints is one of the hardest parts of building and shipping great, usable products.</li>
-            <li>That design is a tool not just for creating beauty and delight, but for fulfilling people's needs.</li>
+            <li>Design is a tool not just for creating beauty and delight, but for fulfilling people's needs.</li>
             <li>The power of storytelling and narrative in conveying the impact the products we build will have on people's lives.</li>
             <li>Clear goals, an agenda, and ensuring everyone in the room can partipate is the key to not wasting people's time. Time is precious.</li>
             <li>Working people and the artifacts we leave behind are what make history.</li>
@@ -33,7 +34,29 @@
         <p>Reach out if you'd like to chat: <a href="mailto:blairmellis@gmail.com">blairmellis@gmail.com</a>.</p>
         
         <br/>
-        <img src="assets/img/eye-hand-star.png" width="100%" alt="illustration of an eye hand and star" />
+        <img src="assets/img/process.png" width="50%" alt="Chart showing the product design process" />
+        <br/>
 
     </body>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="crossorigin="anonymous"></script>
+    <script>
+function changeColor(element, curNumber){
+    curNumber++;
+
+    if(curNumber > 5){
+        curNumber = 1;
+    }
+
+    element.addClass('color' + curNumber, 4000);
+
+    // So previous classes get removed.
+    element.attr('class', 'color' + curNumber);
+
+    setTimeout(function(){changeColor(element, curNumber)}, 6000);  
+}
+
+changeColor($('#bodyColor'), 0);
+    </script>
+
 </html>
