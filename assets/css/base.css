@@ -10,15 +10,10 @@ body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
 /* HTML5 display-role reset for older browsers */
 
 body {
-	line-height: 1.2;
-}
-
-/* site */
-
-body {
     background-color: #246390;
     color: #f3f2e9;
     font-family: 'Montserrat', sans-serif;
+    line-height: 1.2;
 }
 
 @media (min-width: 30em) {
@@ -31,6 +26,8 @@ body {
 @media (min-width: 50em) {
     
     body {
+        background: no-repeat url("../img/wave.svg") #246390;
+        background-position: top 0 right 0;
         padding: 5% 15% 15% 10%;
     }
 
