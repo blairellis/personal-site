@@ -16,23 +16,22 @@ body {
 /* site */
 
 body {
-    background-color:#fffeec;
-    padding: 5% 5% 5% 5%;
-    font-family: 'Open Sans', sans-serif;
+    background-color: #246390;
+    color: #f3f2e9;
+    font-family: 'Montserrat', sans-serif;
 }
 
 @media (min-width: 30em) {
     
     body {
-        padding: 5% 10% 10% 10%;
+        padding: 5% 15% 10% 10%;
     }
-
 }
 
 @media (min-width: 50em) {
     
     body {
-        padding: 5% 30% 15% 10%;
+        padding: 5% 15% 15% 10%;
     }
 
 }
@@ -57,31 +56,38 @@ p, h1, h2, h3, h4, ul, li, a:link, a:hover, a:visited {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 5em;
+    font-family: 'Stint Ultra Expanded', cursive;
+    font-weight: 700;
+    padding-bottom: 10px;
+    margin: 30px 0 0 0;
 }
 
 h2 {
-    padding: 0 0 0.6em 0;
-    line-height: 1.4em;
-}
-
-h3 {
-    padding: 0 0 0.6em 0;
-    line-height: 2em;
+    padding: 5px 0 60px 0;
+    margin: 0 0 60px 0;
+    border-bottom: 1px solid #84daf5;
+    line-height: 1.25em;
+    font-size: 1.5em;
+    font-weight: 400;
 }
 
 p {
-    padding: 0 0 2em 0; 
-    line-height: 1.9em;
+    padding: 0 5em 2em 0; 
+    line-height: 1.5em;
+    font-size: 1em;
+    margin: 0;
 }
 
 ul {
-    padding: 0 0 2em 0; 
+    padding: 0 6em 1em 0; 
     list-style-image: url('../img/bullet.png');
+    font-size: 1em;
+    margin: 0;
 }
 
 li {
-    padding: 0 0 2em 0.5em;
+    padding: 0 0 1.5em 0.5em;
     margin: 0 0 0 1.5em;
     line-height: 1.5em;
 }
@@ -91,29 +97,10 @@ li:last-of-type {
 }
 
 a:link, a:visited {
-    color: #00856f;
+    color: #84daf5;
 }
 
-a:hover {
-    color: #00413e;
+a:hover {i
+    color: #84daf5;
 }
 
-.color1 {
-    background-color: #d4faff;
-}
-
-.color2 {
-    background-color: #fff3fd;
-}
-
-.color3 {
-    background-color: #fffeec;
-}
-
-.color4 {
-    background-color: #fff3fd;
-}
-
-.color5 {
-    background-color: #d4faff;
-}
