@@ -12,7 +12,9 @@ body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
 body {
     background-color: #246390;
     color: #f3f2e9;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: normal;
     line-height: 1.2;
 }
 
@@ -54,8 +56,9 @@ p, h1, h2, h3, h4, ul, li, a:link, a:hover, a:visited {
 
 h1 {
     font-size: 5em;
-    font-family: 'Stint Ultra Expanded', cursive;
-    font-weight: 700;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-style: normal;
     padding-bottom: 10px;
     margin: 30px 0 0 0;
 }
