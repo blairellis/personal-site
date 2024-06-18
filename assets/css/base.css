@@ -15,7 +15,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-style: normal;
-    line-height: 1.2;
+    line-height: 1.1;
 }
 
 @media (min-width: 30em) {
@@ -55,41 +55,42 @@ p, h1, h2, h3, h4, ul, li, a:link, a:hover, a:visited {
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 4em;
     font-family: 'Libre Baskerville', serif;
     font-weight: 400;
     font-style: normal;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     margin: 30px 0 0 0;
 }
 
 h2 {
-    padding: 5px 0 60px 0;
-    margin: 0 0 60px 0;
-    border-bottom: 1px solid #84daf5;
-    line-height: 1.25em;
-    font-size: 1.5em;
+    padding: 5px 0 40px 0;
+    margin: 0 0 40px 0;
+    font-family: 'Libre Baskerville', serif;
+    border-bottom: 1px solid #0a3350;
+    line-height: 1.2em;
+    font-size: 1.4em;
     font-weight: 400;
 }
 
 p {
     padding: 0 5em 2em 0; 
-    line-height: 1.5em;
-    font-size: 1em;
+    line-height: 1.3em;
+    font-size: 0.9em;
     margin: 0;
 }
 
 ul {
-    padding: 0 6em 1em 0; 
+    padding: 0 6em 0 0; 
     list-style-image: url('../img/bullet.png');
-    font-size: 1em;
+    font-size: 0.9em;
     margin: 0;
 }
 
 li {
     padding: 0 0 1.5em 0.5em;
     margin: 0 0 0 1.5em;
-    line-height: 1.5em;
+    line-height: 1.3em;
 }
 
 li:last-of-type {
@@ -97,10 +98,10 @@ li:last-of-type {
 }
 
 a:link, a:visited {
-    color: #84daf5;
+    color: #ffffff;
 }
 
 a:hover {i
-    color: #84daf5;
+    color: #ffffff;
 }
 
