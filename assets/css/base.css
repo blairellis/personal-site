@@ -10,8 +10,8 @@ body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
 /* HTML5 display-role reset for older browsers */
 
 body {
-    background-color: #246390;
-    color: #f3f2e9;
+    background-color: #2b3a1f;
+    color: #f5f1ea;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -28,8 +28,6 @@ body {
 @media (min-width: 50em) {
     
     body {
-        background: no-repeat url("../img/wave.svg") #246390;
-        background-position: top 0 right 0;
         padding: 5% 15% 15% 10%;
     }
 
@@ -67,14 +65,14 @@ h2 {
     padding: 5px 0 40px 0;
     margin: 0 0 40px 0;
     font-family: 'Libre Baskerville', serif;
-    border-bottom: 1px solid #0a3350;
+    border-bottom: 1px solid #c2b199;
     line-height: 1.2em;
     font-size: 1.4em;
     font-weight: 400;
 }
 
 p {
-    padding: 0 5em 2em 0; 
+    padding: 0 5em 1em 0; 
     line-height: 1.3em;
     font-size: 0.9em;
     margin: 0;
@@ -82,13 +80,12 @@ p {
 
 ul {
     padding: 0 6em 0 0; 
-    list-style-image: url('../img/bullet.png');
     font-size: 0.9em;
     margin: 0;
 }
 
 li {
-    padding: 0 0 1.5em 0.5em;
+    padding: 0 0 0.8em 0.5em;
     margin: 0 0 0 1.5em;
     line-height: 1.3em;
 }
@@ -98,10 +95,10 @@ li:last-of-type {
 }
 
 a:link, a:visited {
-    color: #ffffff;
+    color: #c2b199;
 }
 
 a:hover {i
-    color: #ffffff;
+    color: #c2b199;
 }
 
